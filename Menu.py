@@ -14,7 +14,7 @@ features = len(dataset[0]) - 1
 algorithm = int(input("Enter algorithm choice: 1)Forward Selection 2) Backwards Elimination "))
 
 if algorithm == 1:
-    forwardSelection(dataset, features)
+    forwardSelection(dataset)
 
 if algorithm == 2:
-    backwardElimination(dataset, features)
+    backwardElimination(dataset)
